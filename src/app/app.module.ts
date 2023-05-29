@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ImageReducerComponent } from './image-reducer/image-reducer.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ImageReducerComponent
   ],
   imports: [
     BrowserModule,
